@@ -12,7 +12,6 @@ const scriptURL = "https://script.google.com/macros/s/AKfycbzxN_eKDo3u-PFYrYkUXD
 const handleSubmit = async (e) => {
 e.preventDefault();
 
-```
 const btn = e.target.querySelector("button");
 const status = document.getElementById("status");
 
@@ -38,13 +37,10 @@ try {
 
 btn.innerText = "Book My Demo";
 btn.disabled = false;
-```
 
 };
 
 return ( <div className="text-white">
-
-```
   {/* NAVBAR */}
   <div className="max-w-6xl mx-auto p-6 flex justify-between items-center">
     <h1 className="text-xl font-semibold">ClientSync</h1>
@@ -161,7 +157,6 @@ return ( <div className="text-white">
   </section>
 
 </div>
-```
 
 );
 }
